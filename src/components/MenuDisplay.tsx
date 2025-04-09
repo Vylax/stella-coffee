@@ -1,7 +1,7 @@
 'use client'; // Needed for useState
 
 import React, { useState } from 'react';
-import MenuItemCard, { MenuItem } from './MenuItemCard';
+import MenuItemCard from './MenuItemCard';
 
 // Sample Menu Data Structure (Replace with actual data fetching/props)
 const sampleMenuData = [

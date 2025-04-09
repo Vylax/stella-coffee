@@ -19,7 +19,7 @@ export default function Home() {
         <div className="container mx-auto text-center max-w-3xl">
           <h2 className="text-3xl font-bold text-brand-green mb-4">Welcome to Bakery Bliss Café</h2>
           <p className="text-lg text-brand-brown mb-8">
-            Discover a unique blend of Basque warmth and American chic. We're passionate about quality coffee, artisanal pastries, and creating a welcoming space for our community.
+            Discover a unique blend of Basque warmth and American chic. We&apos;re passionate about quality coffee, artisanal pastries, and creating a welcoming space for our community.
           </p>
           {/* Maybe add a button linking to About page */}
           <a href="/about" className="inline-block bg-brand-red text-white px-6 py-3 rounded-md font-semibold hover:bg-opacity-90 transition-colors">

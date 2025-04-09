@@ -14,10 +14,10 @@ export default function CustomOrdersPage() {
       <div className="max-w-3xl mx-auto text-center mb-10">
         <p className="text-lg text-brand-brown mb-4">
           Planning a special event? Let us create something unique for you! From custom cakes and pastry platters
-          to small-scale catering, we're here to help make your occasion memorable.
+          to small-scale catering, we&apos;re here to help make your occasion memorable.
         </p>
         <p className="text-brand-brown">
-          Fill out the form below to tell us about your needs, and we'll get back to you with a personalized quote.
+          Fill out the form below to tell us about your needs, and we&apos;ll get back to you with a personalized quote.
           Please note this form is for inquiries and quotes only; pricing will be provided upon review.
         </p>
       </div>

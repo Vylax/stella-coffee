@@ -37,7 +37,7 @@ const TestimonialSlider: React.FC = () => {
 
       {/* --- Static Placeholder (replace with Swiper or similar) --- */}
       <div className="bg-white p-8 rounded-lg shadow-md text-center border border-gray-200">
-         <p className="text-lg italic text-gray-700 mb-4">"{testimonials[0].quote}"</p>
+         <p className="text-lg italic text-gray-700 mb-4">&quot;{testimonials[0].quote}&quot;</p>
          <p className="font-semibold text-gray-900">- {testimonials[0].author}</p>
          <p className="text-sm text-gray-700">{testimonials[0].role}</p>
       </div>
