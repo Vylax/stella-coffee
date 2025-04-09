@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  stella-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: stella-app
+    ports:
+      - "3003:3000" # Map host port 3003 to container port 3000
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000 
